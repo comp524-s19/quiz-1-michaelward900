@@ -1,5 +1,5 @@
 finalGrade :: [Int] -> [Int] -> Int
 
-finalGrade x y
+finalGrade x
   |(length (x)) == 0) = 0
-  |otherwise = ((sum x) `div` (sum y))
+  -- otherwise = ((sum x) `div` (sum y))
